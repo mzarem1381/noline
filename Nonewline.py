@@ -7,6 +7,8 @@ def removeline(text):
     for i in text:
         if i != "\n":
             new = new+i
+        else:
+            new = new+" "
     return new
 
 text= pyperclip.paste()
